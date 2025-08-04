@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Freddie Butterfield Portfolio</title>
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+   <!-- Main Stylesheet -->
+   <link rel="stylesheet" href="styles.css" />
+   <!-- AOS Animation Library -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+   <!-- Font Awesome for Social Icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+   <header>
+      <div class="header-container">
+         <div class="header-left">
+            <h1>University</h1>
+         </div>
+         <div class="header-right">
+            <button class="menu-toggle" id="menu-toggle">
+               <i class="fas fa-bars"></i>
+            </button>
+            <button class="dark-mode-toggle" id="dark-mode-toggle">
+               <i class="fas fa-moon"></i>
+            </button>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <!-- About Section -->
+      <section id="about" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Here you can find a full summary of my time at the University of Sheffield.</p>
+      </section>
+
+      <section id="education" data-aos="fade-up">
+        <h2>Year 1</h2>
+        <div class="education-cards">
+           <div class="education-card" data-aos="zoom-in">
+              <h3>Introduction to Software Engineering</h3>
+              <p><em>Achieved 77%</em></p>
+              <p>
+                Introduction to the core concepts of software development lifecycles, basics of the Linux CLI, and Git.
+              </p>
+              <p>
+               <b>Assignment:</b> Developed a University-focused social media app project for fake clients (volunteer MEng/MComp students) in Ruby and Sinatra. We developed unit tests using RSpec and Capybara.
+              </p>
+           </div>
+           <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Java Programming</h3>
+              <p><em>Achieved 72%</em></p>
+              <p>
+                 Learnt the core principles of Java, OOP, graphics, and developing GUIs.
+              </p>
+              <p><b>Assignment 1:</b> Simple unit converter. Formatting and spacing of output marked scrutinously.</p>
+              <p><b>Assignment 2:</b> Use a simple graphics package to draw a coloured pixel art of some ducks based off of a .txt file.</p>
+              <p><b>Assignment 3:</b> A health statistics UI. Basic GUI panel was given but the entire graph system needed developing with sample data.</p>
+           </div>
+           <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Foundations of Computer Science</h3>
+                <p><em>Achieved 74%</em></p>
+                <p>
+                    Learnt more about the maths side of computer science, such as propositional and predicate logic, set theory, proofs, and number theory.
+                </p>
+           </div>
+           <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Machines and Intelligence</h3>
+                <p><em>Achieved 64%</em></p>
+                <p>
+                    Learnt the history fundamentals of AI. Introduced to path-finding techniques such as breadth and depth first search and A*
+                </p>
+                <p><b>Assignment:</b> Developed an 8-puzzle solver using the aforementioned path-finding algorithms.</p>
+            </div>
+            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Devices and Networks</h3>
+                <p><em>Achieved 88%</em></p>
+                <p>
+                   Learnt about logic gates and basic networking concepts.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Web and Internet Technology</h3>
+                <p><em>Achieved 77%</em></p>
+                <p>
+                   Learnt basic web development with HTML, CSS, and JavaScript.
+                </p>
+                <p><b>Assignment:</b> Developed a basic website about a fictional toy company. Website had to be "mobile-first" and include a "click on the right picture" game implemented using JavaScript.</p>
+            </div>
+            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Introduction to Algorithms and Data Structures</h3>
+                <p><em>Achieved 76%</em></p>
+                <p>
+                   Learnt about the fundamentals of algorithms, covering concepts such as sorting, greedy algorithms, dynamic programming, and recursion.
+                </p>
+            </div>
+        </div>
+     </section>
+     <section id="education" data-aos="fade-up">
+        <h2>Year 2</h2>
+        <div class="education-cards">
+           <div class="education-card" data-aos="zoom-in">
+              <h3>Data Driven Computing</h3>
+              <p><em>Achieved 61%</em></p>
+              <p>
+                This module builds off of Machines and Intelligence, introducing us to machine learning and the statistics behind it.
+              </p>
+              <p><b>Assignment:</b> Developed a letter classifier using <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes' Theorem</a>. The classifier would classify letters in a word search and then solve the word search.</p>
+           </div>
+           <div class="education-card" data-aos="zoom-in">
+                <h3>Systems Design and Security</h3>
+                <p><em>Achieved 62%</em></p>
+                <p>
+                    Building off of Java Programming, this module focuses on building systems from the ground up.
+                </p>
+                <p><b>Assignment:</b> Developed a "bike shop" system from the ground up using Java for the base code and frontend, and MySQL for the database.</p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Functional Programming</h3>
+                <p><em>Achieved 82%</em></p>
+                <p>
+                  Learnt how to program in Haskell. The project was a WW2 Enigma machine and Bombe simulator entirely in Haskell.
+                </p>
+                <p><b>Assignment:</b> An assignment themed around the <a href="https://www.tnmoc.org/bh-2-the-enigma-machine">Enigma machine</a> and the <a href="https://www.tnmoc.org/bh-10-bombe-description">Bombe</a>. It was split into 3 tasks:
+                  <ul>
+                     <li>Task 1: Emulate the encryption and decryption of the Enigma machine.</li>
+                     <li>Task 2: Create the <a href="https://www.tnmoc.org/bh-16-menus-and-cribs">menus and cribs</a> used in the Bombe.</li>
+                     <li>Task 3: Emulate the decryption mechanism of the Bombe.</li>
+                  </ul>
+               </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Automata, Computation, and Complexity</h3>
+                <p><em>Achieved 72%</em></p>
+                <p>
+                  Building off of the DSA module, I learnt about automata and computation & complexity theory.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Robotics</h3>
+                <p><em>Achieved 63%</em></p>
+                <p>
+                  Learnt about the various techniques and algorithms employed in modern robots.
+                </p>
+                <p><b>Assignment:</b> Programmed a robot to observe its surroundings and complete challenges using Python, OpenCV, and ROS.</p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Logic in Computer Science</h3>
+                <p><em>Achieved 65%</em></p>
+                <p>
+                  A refresh of the propositional logic and predicate logic from the year before, but also introducing automated proofs and temporal logic.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Software Hut</h3>
+                <p><em>Achieved 67%</em></p>
+                <p>
+                  <b>Assignment:</b> A 1 semester project where we had to develop software for a real client: a lecturer in the Department of Music. We listened to their requirements and developed a web-based grade management system for Postgraudate Taught (PGT) students in Ruby on Rails. We made use of GitLab for version control and employed an Agile development methodology. Like the year before, we once again used RSpec and Capybara for testing.
+                </p>
+            </div>
+        </div>
+     </section>
+     <section id="education" data-aos="fade-up">
+        <h2>Year 3</h2>
+        <div class="education-cards">
+           <div class="education-card" data-aos="zoom-in">
+              <h3>Finance and Law</h3>
+              <p><em>Achieved 79%</em></p>
+              <p>
+                A compulsory module for all students in the Faculty of Engineering. Introduced us to basic accounting, business practices, contract law, law of tort, and intellectual property law.
+              </p>
+           </div>
+           <div class="education-card" data-aos="zoom-in">
+                <h3>Text Processing</h3>
+                <p><em>Achieved 79%</em></p>
+                <p>
+                Introduction into the world of Natural Language Processing. Learnt about text compression, information retrieval, sentiment analysis, and information extraction.
+                </p>
+                <p><b>Assignment 1:</b> A document retrieval system developed in Python.</p>
+                <p><b>Assignment 2:</b> A sentiment analysis program also developed in Python.</p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>German Intermediate</h3>
+                <p><em>Achieved 72% (both semesters)</em></p>
+                <p>
+                  Chose to do a language as two of my optional modules (one per semester), achieving an A2/B1 standard.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>The Intelligent Web</h3>
+                <p><em>Achieved 55%</em></p>
+                <p>
+                  <b>Assignment:</b> Developed a progressive web application in Node.js. Made use of advanced web development concepts such as service workers, indexedDB, and knowledge graphs.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Computer Security and Forensics</h3>
+                <p><em>Achieved 77%</em></p>
+                <p>
+                  Learnt about the DES/AES encryption algorithms, how to break them through linear cryptanalysis, hash functions, and the Diffie-Hellman key exchange. We also dabbled a bit into penetration testing with XSS and SQL injection attacks.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Software Testing</h3>
+                <p><em>Achieved 71%</em></p>
+                <p>
+                  A proper dive into how testing is done in the industry, which helped me on my placement a lot. Learnt about unit, integration, & regression testing, coverage criteria, mutation testing, and fuzzing.
+                </p>
+             </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Cyber Security Team Project</h3>
+                <p><em>Achieved 69%</em></p>
+                <p>
+                  <b>Assignment:</b> A group project involving numerous tasks: threat modelling, incident response, asset protection, and a cyber-security-themed podcast.
+                </p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+                <h3>Dissertation Project</h3>
+                <p><em>Achieved 68%</em></p>
+                <p>
+                 For my dissertation project, I developed a lyrics-based music recommendation application. I trained 3 models: GloVe, Word2Vec, and Latent Dirichlet Allocation (LDA) on a dataset consisting of around 100,000 songs, then used those vectors to make a recommendation from a query song. To evaluate the project, I created a survey and allowed my peers to test my application.
+                </p>
+            </div>
+        </div>
+     </section>
+     <section id="education" data-aos="fade-up">
+         <h2>Extracurricular Activites</h2>
+         <div class="education-cards">
+            <div class="education-card" data-aos="zoom-in">
+               <h3>Ice Hockey</h3>
+               <p>Played ice hockey for the University's 4th team. Represented the University at Varsity 2023 & 2024. Switched briefly to roller hockey whilst on placement.</p>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+               <h3>Rock Band</h3>
+               <p>Sang for a student rock band consisting of peers from my course. We called ourselves C Sharp...</p>
+            </div>
+         </div>
+     </section>
+     <section id="hero" data-aos="fade-up">
+        <a href="index.html" class="button">Go back</a>
+     </section>
+   </main>
+
+   <!-- Footer Section -->
+   <footer>
+      <!-- Removed footer columns (About Me, Newsletter, Quick Links) -->
+      <p class="footer-bottom">&copy; 2025 Freddie Butterfield. All rights reserved.</p>
+   </footer>
+
+   <!-- Scripts -->
+   <script src="script.js"></script>
+   <!-- AOS JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
+</html>

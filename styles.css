@@ -23,9 +23,9 @@ body.dark-mode {
    --card-bg: #2c2c2c;
    --header-bg: #333;
    --text-color: #e0e0e0;
-   --accent-color: #3498db;
-   --button-bg: #3498db;
-   --button-hover-bg: #2980b9;
+   --accent-color: #f70707;
+   --button-bg: #f70707;
+   --button-hover-bg: #f70707;
 }
 
 /* Body styles */

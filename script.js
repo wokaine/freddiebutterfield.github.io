@@ -47,22 +47,23 @@ document.addEventListener("DOMContentLoaded", function () {
    });
 });
 
-async function fetchData() {
-   try {
-      const response = await fetch("https://api.chucknorris.io/jokes/random/"); // Example API
-      const data = await response.json();
-      console.log(data);
+// To fetch API data (if needed)
+// async function fetchData() {
+//    try {
+//       const response = await fetch("");
+//       const data = await response.json();
+//       console.log(data);
 
-      // Select the container and update its content
-      document.getElementById("data-container").innerHTML = `
-            <p>${data.value}</p>
-        `;
-   } catch (error) {
-      console.error("Error fetching data:", error);
-      document.getElementById("data-container").innerHTML =
-         "Failed to load data.";
-   }
-}
+//       // Select the container and update its content
+//       document.getElementById("data-container").innerHTML = `
+//             <p>${data.value}</p>
+//         `;
+//    } catch (error) {
+//       console.error("Error fetching data:", error);
+//       document.getElementById("data-container").innerHTML =
+//          "Failed to load data.";
+//    }
+// }
 
-// Call the function when the page loads
-fetchData();
+// // Call the function when the page loads
+// fetchData();
