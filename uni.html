@@ -26,6 +26,11 @@
             <button class="menu-toggle" id="menu-toggle">
                <i class="fas fa-bars"></i>
             </button>
+            <nav id="nav-menu">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+               </ul>
+            </nav>
             <button class="dark-mode-toggle" id="dark-mode-toggle">
                <i class="fas fa-moon"></i>
             </button>
@@ -47,11 +52,18 @@
               <h3>Introduction to Software Engineering</h3>
               <p><em>Achieved 77%</em></p>
               <p>
-                Introduction to the core concepts of software development lifecycles, basics of the Linux CLI, and Git.
+                Introduction to the core concepts of software development lifecycles.
               </p>
               <p>
-               <b>Assignment:</b> Developed a University-focused social media app project for fake clients (volunteer MEng/MComp students) in Ruby and Sinatra. We developed unit tests using RSpec and Capybara.
+               <b>Assignment:</b> Developed a University-focused social media app project for fake clients (volunteer MEng/MComp students).
               </p>
+              <div class="skill-tags">
+                  <span class="tag">Ruby</span>
+                  <span class="tag">Sinatra</span>
+                  <span class="tag">RSpec</span>
+                  <span class="tag">Git</span>
+                  <span class="tag">HAML</span>
+              </div>
            </div>
            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
               <h3>Java Programming</h3>
@@ -62,13 +74,16 @@
               <p><b>Assignment 1:</b> Simple unit converter. Formatting and spacing of output marked scrutinously.</p>
               <p><b>Assignment 2:</b> Use a simple graphics package to draw a coloured pixel art of some ducks based off of a .txt file.</p>
               <p><b>Assignment 3:</b> A health statistics UI. Basic GUI panel was given but the entire graph system needed developing with sample data.</p>
+               <div class="skill-tags">
+                  <span class="tag">Java</span>
+              </div>
            </div>
            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
-                <h3>Foundations of Computer Science</h3>
-                <p><em>Achieved 74%</em></p>
-                <p>
-                    Learnt more about the maths side of computer science, such as propositional and predicate logic, set theory, proofs, and number theory.
-                </p>
+               <h3>Foundations of Computer Science</h3>
+               <p><em>Achieved 74%</em></p>
+               <p>
+                  Introduction to the mathematical fundamentals in computer science.
+               </p>
            </div>
            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
                 <h3>Machines and Intelligence</h3>
@@ -77,6 +92,9 @@
                     Learnt the history fundamentals of AI. Introduced to path-finding techniques such as breadth and depth first search and A*
                 </p>
                 <p><b>Assignment:</b> Developed an 8-puzzle solver using the aforementioned path-finding algorithms.</p>
+                <div class="skill-tags">
+                  <span class="tag">Java</span>
+                </div>
             </div>
             <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
                 <h3>Devices and Networks</h3>
@@ -84,14 +102,23 @@
                 <p>
                    Learnt about logic gates and basic networking concepts.
                 </p>
+                <div class="skill-tags">
+                  <span class="tag">Logisim</span>
+                  <span class="tag">ASM</span>
+                </div>
             </div>
             <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
                 <h3>Web and Internet Technology</h3>
                 <p><em>Achieved 77%</em></p>
                 <p>
-                   Learnt basic web development with HTML, CSS, and JavaScript.
+                   Learnt the fundamentals of basic web development
                 </p>
-                <p><b>Assignment:</b> Developed a basic website about a fictional toy company. Website had to be "mobile-first" and include a "click on the right picture" game implemented using JavaScript.</p>
+                <p><b>Assignment:</b> Developed a basic website about a fictional toy company. Website had to be "mobile-first" and include a "click on the right picture" game.</p>
+                <div class="skill-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>                
             </div>
             <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
                 <h3>Introduction to Algorithms and Data Structures</h3>
@@ -111,7 +138,12 @@
               <p>
                 This module builds off of Machines and Intelligence, introducing us to machine learning and the statistics behind it.
               </p>
-              <p><b>Assignment:</b> Developed a letter classifier using <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes' Theorem</a>. The classifier would classify letters in a word search and then solve the word search.</p>
+              <p><b>Assignment:</b> Develop an automatic wordsearch solver using <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes</a> and <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">k-Nearest Neighbours</a>.</p>
+               <div class="skill-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">NumPy</span>
+                  <span class="tag">Pandas</span>
+               </div>
            </div>
            <div class="education-card" data-aos="zoom-in">
                 <h3>Systems Design and Security</h3>
@@ -120,6 +152,10 @@
                     Building off of Java Programming, this module focuses on building systems from the ground up.
                 </p>
                 <p><b>Assignment:</b> Developed a "bike shop" system from the ground up using Java for the base code and frontend, and MySQL for the database.</p>
+                <div class="skill-tags">
+                  <span class="tag">Java</span>
+                  <span class="tag">MySQL</span>
+                </div>
             </div>
             <div class="education-card" data-aos="zoom-in">
                 <h3>Functional Programming</h3>
@@ -134,12 +170,15 @@
                      <li>Task 3: Emulate the decryption mechanism of the Bombe.</li>
                   </ul>
                </p>
+                <div class="skill-tags">
+                  <span class="tag">Haskell</span>
+                </div>
             </div>
             <div class="education-card" data-aos="zoom-in">
                 <h3>Automata, Computation, and Complexity</h3>
                 <p><em>Achieved 72%</em></p>
                 <p>
-                  Building off of the DSA module, I learnt about automata and computation & complexity theory.
+                  Building off of the DSA module, covering automata, and computation & complexity theory.
                 </p>
             </div>
             <div class="education-card" data-aos="zoom-in">
@@ -149,6 +188,11 @@
                   Learnt about the various techniques and algorithms employed in modern robots.
                 </p>
                 <p><b>Assignment:</b> Programmed a robot to observe its surroundings and complete challenges using Python, OpenCV, and ROS.</p>
+                <div class="skill-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">ROS</span>
+                  <span class="tag">OpenCV</span>
+                </div>
             </div>
             <div class="education-card" data-aos="zoom-in">
                 <h3>Logic in Computer Science</h3>
@@ -161,8 +205,15 @@
                 <h3>Software Hut</h3>
                 <p><em>Achieved 67%</em></p>
                 <p>
-                  <b>Assignment:</b> A 1 semester project where we had to develop software for a real client: a lecturer in the Department of Music. We listened to their requirements and developed a web-based grade management system for Postgraudate Taught (PGT) students in Ruby on Rails. We made use of GitLab for version control and employed an Agile development methodology. Like the year before, we once again used RSpec and Capybara for testing.
+                  <b>Assignment:</b> A 1 semester project where we had to develop software for a real client: a lecturer in the Department of Music. We listened to their requirements and developed a web-based grade management system for Postgraudate Taught (PGT) students in Ruby on Rails. We made use of GitLab for version control and employed an Agile development methodology. Like the year before, we used RSpec for testing.
                 </p>
+              <div class="skill-tags">
+                  <span class="tag">Ruby</span>
+                  <span class="tag">Ruby on Rails</span>
+                  <span class="tag">RSpec</span>
+                  <span class="tag">Git</span>
+                  <span class="tag">HAML</span>
+              </div>
             </div>
         </div>
      </section>
@@ -177,48 +228,68 @@
               </p>
            </div>
            <div class="education-card" data-aos="zoom-in">
-                <h3>Text Processing</h3>
-                <p><em>Achieved 79%</em></p>
-                <p>
-                Introduction into the world of Natural Language Processing. Learnt about text compression, information retrieval, sentiment analysis, and information extraction.
-                </p>
-                <p><b>Assignment 1:</b> A document retrieval system developed in Python.</p>
-                <p><b>Assignment 2:</b> A sentiment analysis program also developed in Python.</p>
+               <h3>Text Processing</h3>
+               <p><em>Achieved 79%</em></p>
+               <p>
+               Introduction into the world of Natural Language Processing. Learnt about text compression, information retrieval, sentiment analysis, and information extraction.
+               </p>
+               <p><b>Assignment 1:</b> A document retrieval system</p>
+               <p><b>Assignment 2:</b> A sentiment analysis program</p>
+               <div class="skill-tags">
+                  <span class="tag">Python</span>
+               </div>
             </div>
             <div class="education-card" data-aos="zoom-in">
-                <h3>German Intermediate</h3>
-                <p><em>Achieved 72% (both semesters)</em></p>
-                <p>
-                  Chose to do a language as two of my optional modules (one per semester), achieving an A2/B1 standard.
-                </p>
+               <h3>German Intermediate</h3>
+               <p><em>Achieved 72% (both semesters)</em></p>
+               <p>
+               Chose to do a language as two of my optional modules (one per semester), achieving an A2/B1 standard.
+               </p>
             </div>
             <div class="education-card" data-aos="zoom-in">
-                <h3>The Intelligent Web</h3>
-                <p><em>Achieved 55%</em></p>
-                <p>
-                  <b>Assignment:</b> Developed a progressive web application in Node.js. Made use of advanced web development concepts such as service workers, indexedDB, and knowledge graphs.
-                </p>
+               <h3>The Intelligent Web</h3>
+               <p><em>Achieved 55%</em></p>
+               <p>
+               <b>Assignment:</b> Developed a progressive web application in Node.js. Made use of advanced web development concepts such as service workers, indexedDB, and knowledge graphs.
+               </p>
+               <div class="skill-tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Express.js</span>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+               </div>
             </div>
             <div class="education-card" data-aos="zoom-in">
-                <h3>Computer Security and Forensics</h3>
-                <p><em>Achieved 77%</em></p>
-                <p>
-                  Learnt about the DES/AES encryption algorithms, how to break them through linear cryptanalysis, hash functions, and the Diffie-Hellman key exchange. We also dabbled a bit into penetration testing with XSS and SQL injection attacks.
-                </p>
+               <h3>Computer Security and Forensics</h3>
+               <p><em>Achieved 77%</em></p>
+               <p>
+               Learnt about the DES/AES encryption algorithms, how to break them through linear cryptanalysis, hash functions, and the Diffie-Hellman key exchange. We also dabbled a bit into penetration testing with XSS and SQL injection attacks.
+               </p> 
+               <div class="skill-tags">
+                  <span class="tag">Linux</span>
+               </div>          
             </div>
             <div class="education-card" data-aos="zoom-in">
-                <h3>Software Testing</h3>
-                <p><em>Achieved 71%</em></p>
-                <p>
+               <h3>Software Testing</h3>
+               <p><em>Achieved 71%</em></p>
+               <p>
                   A proper dive into how testing is done in the industry, which helped me on my placement a lot. Learnt about unit, integration, & regression testing, coverage criteria, mutation testing, and fuzzing.
-                </p>
+               </p>
+               <div class="skill-tags">
+                  <span class="tag">Java</span>
+                  <span class="tag">JUnit</span>
+               </div>               
              </div>
             <div class="education-card" data-aos="zoom-in">
                 <h3>Cyber Security Team Project</h3>
                 <p><em>Achieved 69%</em></p>
                 <p>
-                  <b>Assignment:</b> A group project involving numerous tasks: threat modelling, incident response, asset protection, and a cyber-security-themed podcast.
+                  <b>Assignment:</b> A group project involving numerous tasks: threat modelling, incident response, asset protection, firewall configuration, and a cyber-security-themed podcast.
                 </p>
+               <div class="skill-tags">
+                  <span class="tag">Linux</span>
+               </div>
             </div>
             <div class="education-card" data-aos="zoom-in">
                 <h3>Dissertation Project</h3>
@@ -230,11 +301,66 @@
         </div>
      </section>
      <section id="education" data-aos="fade-up">
+         <h2>Year 5 </h2>
+         <div class="education-cards">
+            <div class="education-card" data-aos="zoom-in">
+               <h3>3D Computer Graphics</h3>
+               <p><em>Grade Pending</em></p>
+               <p>Learnt about both theoretical and practical concepts in the field of 3D computer graphics. All coding was done using the Java OpenGL library.</p>
+               <p>
+                  <b>Assignment 1:</b> A 3D scene demonstrating adequate lighting and texture mapping techniques.
+                  <b>Assignment 2:</b> A report on how we can make 3D statues look more realistic.
+               </p>
+               <div class="skill-tags">
+                  <span class="tag">Java</span>
+                  <span class="tag">JOGL</span>
+               </div>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+               <h3>Machine Learning and Adaptive Intelligence</h3>
+               <p><em>Grade Pending</em></p>
+               <p>Learnt about the various techniques employed in the field of machine learning such as linear and logistic regression, decision trees, neural networks, and Gaussian processes.</p>
+               <p>
+                  <b>Assignment:</b> A report on the implementation of some of the aforementioned techniques, with sufficient reasoning and justification.
+               </p>
+               <div class="skill-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">NumPy</span>
+                  <span class="tag">Pandas</span>
+                  <span class="tag">PyTorch</span>
+                  <span class="tag">sklearn</span>
+               </div>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+               <h3>Genesys</h3>
+               <p><em>Grade Pending</em></p>
+               <p>Learning about working in a start-up from the ground up. Conducting interviews, writing business models, following Agile methodologies, and of course developing an actual product.</p>
+               <p>
+                  <b>Assignment:</b> We are currently developing a node-based roadmap in order to provide a more visual way of tracking progress and journeys.
+               </p>
+               <div class="skill-tags">
+                  <span class="tag">Ruby</span>
+                  <span class="tag">Ruby on Rails</span>
+                  <span class="tag">RSpec</span>
+                  <span class="tag">Git</span>
+               </div>
+            </div>
+            <div class="education-card" data-aos="zoom-in">
+               <h3>Turing Project</h3>
+               <p><em>Grade Pending</em></p>
+               <p>A group dissertation module with a chance for the final report to be published.</p>
+               <p>
+                  <b>Assignment:</b> We are conducting research on whether research software in published conferences are <a href="https://www.nature.com/articles/s41597-022-01710-x">FAIR</a>.
+               </p>
+            </div>
+         </div>
+     </section>
+     <section id="education" data-aos="fade-up">
          <h2>Extracurricular Activites</h2>
          <div class="education-cards">
             <div class="education-card" data-aos="zoom-in">
                <h3>Ice Hockey</h3>
-               <p>Played ice hockey for the University's 4th team. Represented the University at Varsity 2023 & 2024. Switched briefly to roller hockey whilst on placement.</p>
+               <p>Played ice hockey for the University's 4th team. Represented the University in the varsity competition in 2023 & 2024.</p>
             </div>
             <div class="education-card" data-aos="zoom-in">
                <h3>Rock Band</h3>

@@ -6,13 +6,13 @@
 
 /* Light-mode Colours */
 :root {
-   --primary-bg: #f9fafb;
-   --secondary-bg: #ffffff;
+   --primary-bg: white;
+   --secondary-bg: #f3f3f3;
    --card-bg: #f9f9f9; /* Card background */
-   --header-bg: #661717; /* Navy-ish header background */
+   --header-bg: #8f0000; /* Navy-ish header background */
    --text-color: #2c3e50; /* Dark grayish-blue text */
-   --accent-color: #f70707; /* blue accent color */
-   --button-bg: #f70707;
+   --accent-color: #a01919; /* blue accent color */
+   --button-bg: #a01919;
    --button-hover-bg: #ab0505;
 }
 
@@ -36,6 +36,15 @@ body {
    padding-top: 100px;
    line-height: 1.6;
    transition: background 0.3s, color 0.3s;
+}
+
+section ul {
+   list-style-position: outside;
+   padding-left: 2em;
+}
+
+section li {
+   padding-left: 0.5em;
 }
 
 /* Header styles */
@@ -247,31 +256,6 @@ section h3 {
    margin: 10px;
 }
 
-/* Testimonials Section */
-#testimonials blockquote {
-   background: transparent;
-   border-left: 4px solid var(--accent-color);
-   padding: 20px;
-   margin: 20px 0;
-   border-radius: 8px;
-   font-style: italic;
-   position: relative;
-   line-height: 1.6;
-   color: var(--text-color);
-   transition: transform 0.3s;
-}
-
-#testimonials blockquote:hover {
-   transform: translateX(5px);
-}
-
-#testimonials blockquote footer {
-   text-align: right;
-   margin-top: 10px;
-   font-weight: 600;
-   font-style: normal;
-}
-
 /* Contact Section */
 .contact-container {
    display: flex;
@@ -320,6 +304,11 @@ a:hover {
    border-radius: 4px;
 }
 
+a.button:hover{
+   color: var(--primary-bg);
+   text-decoration: underline;
+}
+
 .button:hover {
    background-color: var(--button-hover-bg);
    transform: scale(1.05);
@@ -336,6 +325,25 @@ footer {
 
 .footer-bottom {
    margin-top: 0;
+}
+
+/* Skill tags */
+.skill-tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+   margin-top: 15px;
+}
+
+.tag {
+   background-color: #e3e0ff;
+   color: #5338ca;
+   padding: 4px 12px;
+   border-radius: 16px;
+   font-size: 0.85rem;
+   font-weight: 600;
+   border: 1px solid #c7d2fe;
+   transition: transform 0.2s ease;
 }
 
 /* Responsive styles */

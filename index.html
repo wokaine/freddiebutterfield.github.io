@@ -50,7 +50,7 @@
             <img src="directory_freddie.jpg" alt="Freddie Butterfield" class="hero-photo" />
             <div class="hero-text">
                <h2>Welcome to My Portfolio Website</h2>
-               <p>Student | QA Engineer | Jack of All Trades, Master of Engineering</p>
+               <p>Student | QA Engineer</p>
                <a href="New_CV.pdf" class="button">Download CV</a>
             </div>
       </section>
@@ -60,7 +60,7 @@
          <h2>About Me</h2>
          <p>
             Hi! I'm a fifth year student at the University of Sheffield studying MEng Computer Science (Software Engineering) with a Year in Industry. I am currently studying for my final year after just having completed my Year in Industry, which you can find more details about below.
-            I am a committed and eager Jack of All Trades with a broad range of skills and competencies. I believe that no concept is too hard to grasp: there is always a point where it all clicks together - it just takes time.
+            I am a committed and eager "jack of all trades" with a broad range of skills and competencies. I believe that no concept is too hard to grasp; there is always a point where it all clicks together, it just takes time.
          </p>
          <br>
          <p>
@@ -68,7 +68,7 @@
             As someone who constantly got marked down in school exams for silly mistakes, coding has allowed me and millions of others to learn from our mistakes, and show how much stronger we get when we learn from them.
          </p>
          <br>
-         <p>This website basically serves as a more detailed CV, feel free to look around.</p>
+         <p>This website serves as a more detailed CV, feel free to look around.</p>
       </section>
 
       <!-- Experience Section -->
@@ -80,23 +80,25 @@
                <h3>QA Engineer Internship</h3>
                <p><em>Hewlett Packard Enterprise | Jul 2024 - Present</em></p>
                <p>
-                  For my year in industry, I spent 13 months working for Hewlett Packard Enterprise in Bristol as a QA Engineer for HPE's primary storage products. 
-                  The core of my job revolved developing and executing automated system tests in Python, the bulk of which were focused on a data migration feature which allows customers to migrate all their data from one array to another.
+                For my year in industry, I spent 13 months working for Hewlett Packard Enterprise in Bristol as a QA Engineer for HPE's primary storage products. I worked on a wide range of projects across multiple teams, and was recognised for this with an award at the end of the internship. Here were some of my core responsibilities and projects:
+               </p>
+               <br>
+               <ul>
+                  <li>A system test that perturbs the compute nodes of a storage array controller during data transfer from one array to another.</li>
+                  <li>An infrastructure project involving Ansible scripts that configure and maintain a fleet of 75+ Linux test servers.</li>
+                  <li>A charity gala, which raised over £3000.</li>
+               </ul> 
                </p>
                <br>
                <p>
-                  On top of that, I gained some experience in maintaining and configuring test infrastructure for the developers working on the storage virtualisation products. This involved using the Integrated Lights Out (iLO) to re-image ProLiant computers and subsequently running Ansible to fully configure them remotely.
-                  This was definitely the best part of the job, not only for the responsibility, but it was always immensely satisfying helping the other developers with any station issues they came across.
-               </p>
-               <br>
-               <p>
-                  As I study for my final year at University, I am currently continuing to work at HPE on a part-time remote basis.
+                  As I study for my final year at University, I am currently continuing to work at HPE on a part-time remote basis. I am currently working on enhancing the observability of our test servers through Grafana.
                </p>
             </div>
             <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
                <h3>Undergraduate Demonstrator</h3>
                <p><em>University of Sheffield | Sep 2023 - Dec 2023</em></p>
                <p>For one semester I was an undergraduate demonstrator for the <b>Java Programming</b> module. My task was to help any students that needed help with the weekly learning material in allocated sessions.</p>
+               <p>I was motivated by a desire to gain some experience nad help others in a more educative role.</p>
             </div>
             <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
                <h3>Theatrical Experience</h3>
@@ -116,7 +118,7 @@
                   Unfortunately the COVID-19 pandemic had brought this to an abrupt end, and I left the school at the end of 2020 to focus on my A-Level studies.
                </p>
                <br>
-               <a href="https://www.imdb.com/name/nm4472101/?ref_=fn_all_nme_1">IMDb</a>
+               <a href="https://www.imdb.com/name/nm4472101/?ref_=fn_all_nme_1" class="button">IMDb</a>
             </div>
          </div>
       </section>
@@ -151,9 +153,13 @@
                <!-- <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Work+Sample+1" alt="Work Sample 1" /> -->
                <h3>Dissertation Project (2024)</h3>
                <p>
-                  Developed a lyrics-based music recommendation system that uses 3 different word vectorisation methods: Word2Vec, GloVe, and Latent Dirichlet Allocation. Please be aware the app is currently not functioning properly. When it queries a song it looks for it in the dataset first, if not then it will scrape Genius lyrics. However, it seems that Genius have changed the HTML ID of their lyrics containers and so you currently can't query any songs outside the dataset.
+                  Developed a lyrics-based music recommendation system that uses 3 different word vectorisation methods: Word2Vec, GloVe, and Latent Dirichlet Allocation.
+               </p>
+               <p>
+                  Please be aware the app is currently not functioning properly due to an issue with the web scraper for songs outside the dataset.
                </p>
                <a href="https://project-euterpe-jrsoouufda-nw.a.run.app/" class="button">Give it a go</a>
+               <a href="dissertation.pdf" class="button">Full Report</a>
             </div>
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
                <h3>Software Hut Assignment (2023)</h3>
@@ -163,8 +169,9 @@
                <!-- <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Work+Sample+2" alt="Work Sample 2" /> -->
                <h3>Rate My Deal (2022)</h3>
                <p>
-                  Designed a social-media-esque app where users can upload what Tesco meal deal they had and comment on others'. Currently under redevelopment.
+                  Designed a social-media-esque app where users can upload what Tesco meal deal they had and comment on others'.
                </p>
+               <a href="https://github.com/wokaine/ratemydeal" class="button">Repo</a>
             </div>
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
                <h3>Haskell Assignment (2022)</h3>
@@ -175,10 +182,12 @@
                      <li>Task 3: Emulate the decryption mechanism of the Bombe.</li>
                   </ul>
                </p>
+               <a href="https://github.com/wokaine/enigma" class="button">Repo</a>
             </div>
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
                <h3>Data Driven Computing Assignment (2022)</h3>
-               <p>Developed a letter classifier using <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes' Theorem</a>. The classifier would classify letters in a word search and then solve the word search.</p>
+               <p>Developed an automatic wordsearch solver using <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes</a> and <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">k-Nearest Neighbours</a>.</p>
+               <a href="https://github.com/wokaine/wordsearch" class="button">Repo</a>
             </div>
          </div>
          <br>
@@ -187,44 +196,24 @@
 
       <!-- Skills & Competencies Section -->
       <section id="skills" data-aos="fade-up">
-         <p>Here is a very long list of everything I have covered at University. Stronger skills are listed on the CV.</p>
+         <p>Here are the skills I consider to be strongest at the moment. You can find more information about the skills learnt during my time at university <a href="uni.html">here</a>.</p>
+         <br>
          <h2>Languages</h2>
          <ul>
             <li>Python</li>
             <li>Java</li>
-            <li>C#</li>
-            <li>Linux CLI, Bash</li>
             <li>Ruby</li>
-            <li>Haskell</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>SQL (MySQL, SQLite, PostgreSQL)</li>
+            <li>SQL</li>
          </ul>
-
          <br>
          <h2>Frameworks, Libraries, Tools</h2>
          <ul>
-            <li>Ansible w/ YAML and Jinja</li>
-            <li>Ruby on Rails, Sinatra</li>
-            <li>Docker, Kubernetes</li>
-            <li>Flask</li>
+            <li>Ansible</li>
+            <li>Ruby on Rails</li>
+            <li>Kubernetes</li>
             <li>NumPy, Pandas</li>
-            <li>Kali Linux Pentesting Suite</li>
-            <li>Robot Operating System (ROS), OpenCV</li>
-            <li>Node.js</li>
-            <li>Git, GitHub/GitLab</li>
-            <li>MongoDB</li>
-            <li>JUnit</li>
-         </ul>
-
-         <br>
-         <h2>Non-technical/Soft/Miscellaneous Skills</h2>
-         <ul>
-            <li>Singing, dancing, and acting</li>
-            <li>Public Speaking (LAMDA Grade 6)</li>
-            <li>Agile methodologies</li>
-            <li>LaTeX</li>
-            <li>Microsoft Office Suite</li>
-            <li>Driving License</li>
+            <li>Git</li>
+            <li>Grafana</li>
          </ul>
       </section>
 
