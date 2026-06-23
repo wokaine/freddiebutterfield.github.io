@@ -67,11 +67,6 @@ header {
    align-items: center;
 }
 
-.header-left h1 {
-   font-size: 1.8rem;
-   font-weight: 600;
-}
-
 .header-right {
    display: flex;
    align-items: center;
@@ -96,6 +91,12 @@ header {
    cursor: pointer;
    margin-left: 10px;
    display: block;
+}
+
+.centre {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 /* Navigation styles */

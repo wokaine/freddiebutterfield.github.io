@@ -9,7 +9,7 @@
    <!-- Google Fonts -->
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
    <!-- Main Stylesheet -->
-   <link rel="stylesheet" href="styles.css" />
+   <link rel="stylesheet" href="static/project_showcase_styles.css" />
    <!-- AOS Animation Library -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
    <!-- Font Awesome for Social Icons -->
@@ -19,202 +19,47 @@
 <body>
    <header>
       <div class="header-container">
-         <div class="header-left">
-            <h1>Freddie Butterfield</h1>
-         </div>
-         <div class="header-right">
-            <button class="menu-toggle" id="menu-toggle">
-               <i class="fas fa-bars"></i>
-            </button>
-            <nav id="nav-menu">
-               <ul>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#contact">Contact</a></li>
-               </ul>
-            </nav>
-            <button class="dark-mode-toggle" id="dark-mode-toggle">
-               <i class="fas fa-moon"></i>
-            </button>
+         <div>
+            <h1>freddiebutterfield.com</h1>
          </div>
       </div>
    </header>
 
    <main>
-      <!-- Hero Section -->
-      <section id="hero" class="hero" data-aos="fade-up">
-         <div class="hero-content">
-            <img src="directory_freddie.jpg" alt="Freddie Butterfield" class="hero-photo" />
-            <div class="hero-text">
-               <h2>Welcome to My Portfolio Website</h2>
-               <p>Student | QA Engineer</p>
-               <a href="freddie_butterfield_cv.pdf" class="button">Download CV</a>
-            </div>
-      </section>
-
-      <!-- About Section -->
-      <section id="about" data-aos="fade-up">
-         <h2>About Me</h2>
-         <p>
-            Hi! I'm a fifth year student at the University of Sheffield studying MEng Computer Science (Software Engineering) with a Year in Industry. I am currently studying for my final year after just having completed my Year in Industry, which you can find more details about below.
-            I am a committed and eager "jack of all trades" with a broad range of skills and competencies. I believe that no concept is too hard to grasp; there is always a point where it all clicks together, it just takes time.
-         </p>
-         <br>
-         <p>
-            In my opinion, programming is a very forgiving practice. Everyone has experienced the missing semi-colon, the missing close quotes, or even forgetting to hit Ctrl+S. It's a practice where you are allowed to make mistakes, recuperate, and try again. And again. And again.
-            As someone who constantly got marked down in school exams for silly mistakes, coding has allowed me and millions of others to learn from our mistakes, and show how much stronger we get when we learn from them.
-         </p>
-         <br>
-         <p>This website serves as a more detailed CV, feel free to look around.</p>
-      </section>
-
-      <!-- Experience Section -->
-      <section id="experience" data-aos="fade-up">
-         <h2>Experience</h2>
-         <div class="experience-cards">
-            <!-- Experience 1 -->
-            <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>QA Engineer Internship</h3>
-               <p><em>Hewlett Packard Enterprise | Jul 2024 - Present</em></p>
-               <p>
-                For my year in industry, I spent 13 months working for Hewlett Packard Enterprise in Bristol as a QA Engineer for HPE's primary storage products. I worked on a wide range of projects across multiple teams, and was recognised for this with an award at the end of the internship. Here were some of my core responsibilities and projects:
-               </p>
-               <br>
-               <ul>
-                  <li>A system test that perturbs the compute nodes of a storage array controller during data transfer from one array to another.</li>
-                  <li>An infrastructure project involving Ansible scripts that configure and maintain a fleet of 75+ Linux test servers.</li>
-                  <li>A charity gala, which raised over £3000.</li>
-               </ul> 
-               </p>
-               <br>
-               <p>
-                  As I study for my final year at University, I am currently continuing to work at HPE on a part-time remote basis. I am currently working on enhancing the observability of our test servers through Grafana.
-               </p>
-            </div>
-            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Undergraduate Demonstrator</h3>
-               <p><em>University of Sheffield | Sep 2023 - Dec 2023</em></p>
-               <p>For one semester I was an undergraduate demonstrator for the <b>Java Programming</b> module. My task was to help any students that needed help with the weekly learning material in allocated sessions.</p>
-               <p>I was motivated by a desire to gain some experience nad help others in a more educative role.</p>
-            </div>
-            <div class="experience-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Theatrical Experience</h3>
-               <p><em>2009 - 2020</em></p>
-               <p>
-                  For around 11 years I attended an extracurricular performing arts school. Here I learned to sing, dance, and act and became a "triple threat". I performed annually in the school's musical productions, but also won roles in professional TV and theatre. Some highlights: 
-               </p>
-               <br>
-               <ul>
-                  <li>Dulcamara's Assistant in Opera North's L'Elisir d'Amore (Spring 2016)</li>
-                  <li>Michael in Billy Elliot the Musical (West End) (Nov 2013 - Sep 2014)</li>
-                  <li>"Ug" in Cbeebies' Gigglebiz (2013)</li>
-                  <li>Hal in ITV's Eternal Law (2012)</li>
-               </ul>
-               <br>
-               <p>
-                  Unfortunately the COVID-19 pandemic had brought this to an abrupt end, and I left the school at the end of 2020 to focus on my A-Level studies.
-               </p>
-               <br>
-               <a href="https://www.imdb.com/name/nm4472101/?ref_=fn_all_nme_1" class="button">IMDb</a>
-            </div>
-         </div>
-      </section>
-
-      <!-- Education Section -->
-      <section id="education" data-aos="fade-up">
-         <h2>Education</h2>
-         <div class="education-cards">
-            <!-- Education 1 -->
-            <div class="education-card" data-aos="zoom-in">
-               <h3>MEng Computer Science (Software Engineering) with a Year in Industry</h3>
-               <p><em>University of Sheffield, 2021 – 2026</em></p>
-               <a href="uni.html">More Info</a>
-            </div>
-            <!-- Education 2 -->
-            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>A-Levels</h3>
-               <p><em>Bradford Grammar School, 2013-2021</em></p>
-               <p>
-                  Achieved A*AAA in Computer Science, Maths, Physics, and Extended Project Qualification respectively. <br> Achieved 10 GCSEs grades 9-6 including English, Maths, and Computer Science.
-               </p>
-            </div>
-         </div>
-      </section>
+      <div class="centre padding-basic">
+         <h3>Employers click <a href="cv.html">here</a> for a comprehensive portfolio.</h3>
+      </div>
 
       <!-- Projects Section -->
       <section id="projects" data-aos="fade-up">
-         <h2>Project Showcase</h2>
+         <h2 class="centre">Public Project Showcase</h2>
          <div class="project-cards">
             <!-- Projects Item 1 -->
             <div class="project-card" data-aos="zoom-in">
                <!-- <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Work+Sample+1" alt="Work Sample 1" /> -->
-               <h3>Dissertation Project (2024)</h3>
-               <p>
-                  Developed a lyrics-based music recommendation system that uses 3 different word vectorisation methods: Word2Vec, GloVe, and Latent Dirichlet Allocation.
-               </p>
-               <p>
-                  Please be aware the app is currently not functioning properly due to an issue with the web scraper for songs outside the dataset.
-               </p>
-               <a href="https://project-euterpe-jrsoouufda-nw.a.run.app/" class="button">Give it a go</a>
-               <a href="dissertation.pdf" class="button">Full Report</a>
-            </div>
-            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Software Hut Assignment (2023)</h3>
-               <p>Developed a postgraduate taught student grade management system for a client representing the Department of Music at the University of Sheffield. This was developed in Ruby on Rails. Testing was done using RSpec for the unit tests and Capybara for the user tests</p>
+               <h3 class="centre">Project Euterpe 🎵</h3>
+               <div class="centre">
+                  <p>A lyrics-based music recommendation application.</p>
+                  <a href="dissertation.pdf" class="button">Read</a>
+               </div>
             </div>
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
                <!-- <img src="https://dummyimage.com/300x200/cccccc/ffffff.png&text=Work+Sample+2" alt="Work Sample 2" /> -->
-               <h3>Rate My Deal (2022)</h3>
-               <p>
-                  Designed a social-media-esque app where users can upload what Tesco meal deal they had and comment on others'.
-               </p>
-               <a href="https://github.com/wokaine/ratemydeal" class="button">Repo</a>
+               <h3 class="centre">Rate My Deal 🥪</h3>
+               <div class="centre">
+                  <p>A social media where you can share your meal deals.</p>
+                  <a href="https://github.com/wokaine/ratemydeal" class="button">Repo</a>
+               </div>
             </div>
             <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Haskell Assignment (2022)</h3>
-               <p>An assignment themed around the <a href="https://www.tnmoc.org/bh-2-the-enigma-machine">Enigma machine</a> and the <a href="https://www.tnmoc.org/bh-10-bombe-description">Bombe</a>. It was split into 3 tasks:
-                  <ul>
-                     <li>Task 1: Emulate the encryption and decryption of the Enigma machine.</li>
-                     <li>Task 2: Create the <a href="https://www.tnmoc.org/bh-16-menus-and-cribs">menus and cribs</a> used in the Bombe.</li>
-                     <li>Task 3: Emulate the decryption mechanism of the Bombe.</li>
-                  </ul>
-               </p>
-               <a href="https://github.com/wokaine/enigma" class="button">Repo</a>
-            </div>
-            <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
-               <h3>Data Driven Computing Assignment (2022)</h3>
-               <p>Developed an automatic wordsearch solver using <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes</a> and <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">k-Nearest Neighbours</a>.</p>
-               <a href="https://github.com/wokaine/wordsearch" class="button">Repo</a>
+               <h3 class="centre">Ball Oracle ⚽</h3>
+               <div class="centre">
+                  <p>A collection of football-themed machine learning projects</p>
+                  <a href="https://github.com/wokaine/ball-oracle" class="button">Repo</a>
+               </div>
             </div>
          </div>
          <br>
-         <p>You can find more about university projects <a href="uni.html">here.</a></p>
-      </section>
-
-      <!-- Skills & Competencies Section -->
-      <section id="skills" data-aos="fade-up">
-         <p>Here are the skills I consider to be strongest at the moment. You can find more information about the skills learnt during my time at university <a href="uni.html">here</a>.</p>
-         <br>
-         <h2>Languages</h2>
-         <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>Ruby</li>
-            <li>SQL</li>
-         </ul>
-         <br>
-         <h2>Frameworks, Libraries, Tools</h2>
-         <ul>
-            <li>Ansible</li>
-            <li>Ruby on Rails</li>
-            <li>Kubernetes</li>
-            <li>NumPy, Pandas</li>
-            <li>Git</li>
-            <li>Grafana</li>
-         </ul>
       </section>
 
       <!-- Contact Section -->
